@@ -26,7 +26,3 @@ GerenciamentoFinanceiro/
 ├── GerenciamentoFinanceiro.Persistence  ← Repositories, Context, Mappings
 └── GerenciamentoFinanceiro.Ioc          ← Injeção de dependências
 ```
-
-## Autor
-
-Daniel Hoffmann
