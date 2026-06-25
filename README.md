@@ -1,68 +1,43 @@
-ðŸŒ [English](README.en.md) | [EspaÃ±ol](README.es.md)
+[>] [English](README.en.md) | [Espanol](README.es.md)
 
-# ðŸ’° Gerenciamento Financeiro
+# {$} Gerenciamento Financeiro
 
-![.NET Framework 4.7.2](https://img.shields.io/badge/.NET%20Framework-4.7.2-purple)
-![Windows Forms](https://img.shields.io/badge/UI-Windows%20Forms-blue)
-![Entity Framework](https://img.shields.io/badge/ORM-Entity%20Framework-orange)
-![License MIT](https://img.shields.io/badge/License-MIT-green)
+![.NET](https://img.shields.io/badge/.NET%20Framework-4.7.2-512BD4)
+![WinForms](https://img.shields.io/badge/Windows%20Forms-0078D6?logo=windows)
+![License](https://img.shields.io/badge/license-MIT-green)
 
-> Controle financeiro pessoal com registro de entradas/saÃ­das e histÃ³rico de transaÃ§Ãµes â€” Windows Forms com arquitetura DDD.
+> Controle financeiro pessoal com registro de entradas/saidas e historico -- Windows Forms com DDD.
 
-## âœ¨ Features
+## [+] Features
 
-- ðŸ“¥ Registro de entradas (receitas)
-- ðŸ“¤ Registro de saÃ­das (despesas)
-- ðŸ“Š HistÃ³rico de transaÃ§Ãµes com filtros
-- ðŸ” Consulta e acompanhamento do saldo
-- ðŸŒ Interface disponÃ­vel em PortuguÃªs, InglÃªs e Espanhol
+- {$} Registro de entradas e saidas
+- [>] Historico de transacoes com filtros
+- [*] Tipo de transacao categorizado (enum)
+- {/} Arquitetura DDD com IoC
 
-## ðŸ› ï¸ Tech Stack
+## {=} Tech Stack
 
-| Camada | Tecnologia |
-|--------|-----------|
-| Linguagem | C# |
-| Framework | .NET Framework 4.7.2 |
-| Interface | Windows Forms |
-| ORM | Entity Framework |
-| Arquitetura | Domain-Driven Design (DDD) |
+- .NET Framework 4.7.2 / Windows Forms
+- Entity Framework
+- DDD (Domain, Application, Service, Persistence, Ioc)
 
-## ðŸš€ Como Rodar (Visual Studio)
+## [!] Como Rodar
 
-1. Clone o repositÃ³rio:
-   ```bash
-   git clone https://github.com/seu-usuario/GerenciamentoFinanceiro.git
-   ```
+1. Abra `GerenciamentoFinanceiro.sln` no Visual Studio
+2. Execute o projeto `GerenciamentoFinanceiro`
 
-2. Abra a solution `.sln` no **Visual Studio 2019+**
-
-3. Restaure os pacotes NuGet:
-   - Clique com botÃ£o direito na Solution â†’ **Restore NuGet Packages**
-
-4. Atualize o banco de dados (Package Manager Console):
-   ```powershell
-   Update-Database
-   ```
-
-5. Pressione **F5** para executar
-
-## ðŸ—ï¸ Arquitetura
-
-Projeto organizado em camadas seguindo DDD:
+## {/} Arquitetura
 
 ```
 GerenciamentoFinanceiro/
-â”œâ”€â”€ Application/    â†’ Casos de uso e orquestraÃ§Ã£o
-â”œâ”€â”€ Domain/         â†’ Entidades e regras de negÃ³cio
-â”œâ”€â”€ Service/        â†’ ServiÃ§os de domÃ­nio
-â”œâ”€â”€ Persistence/    â†’ Acesso a dados (EF, repositÃ³rios)
-â””â”€â”€ Ioc/            â†’ InjeÃ§Ã£o de dependÃªncias
++-- GerenciamentoFinanceiro              <- WinForms (UI)
++-- GerenciamentoFinanceiro.Application  <- Services e Interfaces
++-- GerenciamentoFinanceiro.Domain       <- Entidades, DTOs, Enums
++-- GerenciamentoFinanceiro.Service      <- Regras de negocio
++-- GerenciamentoFinanceiro.Persistence  <- Repositories, Context, Mappings
++-- GerenciamentoFinanceiro.Ioc          <- Injecao de dependencias
 ```
 
-## ðŸ“„ LicenÃ§a
+## [$] Licenca
 
-Este projeto estÃ¡ sob a licenÃ§a [MIT](LICENSE).
-
-## ðŸ‘¤ Autor
-
-Desenvolvido por **[Seu Nome]** â€” [LinkedIn](https://linkedin.com/in/seu-perfil)
+Este projeto esta sob a licenca [MIT](LICENSE).
