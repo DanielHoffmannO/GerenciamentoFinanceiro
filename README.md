@@ -1,23 +1,23 @@
-🌐 [English](README.en.md) | [Español](README.es.md)
+ðŸŒ [English](README.en.md) | [EspaÃ±ol](README.es.md)
 
-# 💰 Gerenciamento Financeiro
+# ðŸ’° Gerenciamento Financeiro
 
 ![.NET Framework 4.7.2](https://img.shields.io/badge/.NET%20Framework-4.7.2-purple)
 ![Windows Forms](https://img.shields.io/badge/UI-Windows%20Forms-blue)
 ![Entity Framework](https://img.shields.io/badge/ORM-Entity%20Framework-orange)
 ![License MIT](https://img.shields.io/badge/License-MIT-green)
 
-> Controle financeiro pessoal com registro de entradas/saídas e histórico de transações — Windows Forms com arquitetura DDD.
+> Controle financeiro pessoal com registro de entradas/saÃ­das e histÃ³rico de transaÃ§Ãµes â€” Windows Forms com arquitetura DDD.
 
-## ✨ Features
+## âœ¨ Features
 
-- 📥 Registro de entradas (receitas)
-- 📤 Registro de saídas (despesas)
-- 📊 Histórico de transações com filtros
-- 🔍 Consulta e acompanhamento do saldo
-- 🌐 Interface disponível em Português, Inglês e Espanhol
+- ðŸ“¥ Registro de entradas (receitas)
+- ðŸ“¤ Registro de saÃ­das (despesas)
+- ðŸ“Š HistÃ³rico de transaÃ§Ãµes com filtros
+- ðŸ” Consulta e acompanhamento do saldo
+- ðŸŒ Interface disponÃ­vel em PortuguÃªs, InglÃªs e Espanhol
 
-## 🛠️ Tech Stack
+## ðŸ› ï¸ Tech Stack
 
 | Camada | Tecnologia |
 |--------|-----------|
@@ -27,9 +27,9 @@
 | ORM | Entity Framework |
 | Arquitetura | Domain-Driven Design (DDD) |
 
-## 🚀 Como Rodar (Visual Studio)
+## ðŸš€ Como Rodar (Visual Studio)
 
-1. Clone o repositório:
+1. Clone o repositÃ³rio:
    ```bash
    git clone https://github.com/seu-usuario/GerenciamentoFinanceiro.git
    ```
@@ -37,7 +37,7 @@
 2. Abra a solution `.sln` no **Visual Studio 2019+**
 
 3. Restaure os pacotes NuGet:
-   - Clique com botão direito na Solution → **Restore NuGet Packages**
+   - Clique com botÃ£o direito na Solution â†’ **Restore NuGet Packages**
 
 4. Atualize o banco de dados (Package Manager Console):
    ```powershell
@@ -46,23 +46,23 @@
 
 5. Pressione **F5** para executar
 
-## 🏗️ Arquitetura
+## ðŸ—ï¸ Arquitetura
 
 Projeto organizado em camadas seguindo DDD:
 
 ```
 GerenciamentoFinanceiro/
-├── Application/    → Casos de uso e orquestração
-├── Domain/         → Entidades e regras de negócio
-├── Service/        → Serviços de domínio
-├── Persistence/    → Acesso a dados (EF, repositórios)
-└── Ioc/            → Injeção de dependências
+â”œâ”€â”€ Application/    â†’ Casos de uso e orquestraÃ§Ã£o
+â”œâ”€â”€ Domain/         â†’ Entidades e regras de negÃ³cio
+â”œâ”€â”€ Service/        â†’ ServiÃ§os de domÃ­nio
+â”œâ”€â”€ Persistence/    â†’ Acesso a dados (EF, repositÃ³rios)
+â””â”€â”€ Ioc/            â†’ InjeÃ§Ã£o de dependÃªncias
 ```
 
-## 📄 Licença
+## ðŸ“„ LicenÃ§a
 
-Este projeto está sob a licença [MIT](LICENSE).
+Este projeto estÃ¡ sob a licenÃ§a [MIT](LICENSE).
 
-## 👤 Autor
+## ðŸ‘¤ Autor
 
-Desenvolvido por **[Seu Nome]** — [LinkedIn](https://linkedin.com/in/seu-perfil)
+Desenvolvido por **[Seu Nome]** â€” [LinkedIn](https://linkedin.com/in/seu-perfil)
